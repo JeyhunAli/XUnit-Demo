@@ -41,7 +41,7 @@ namespace SeleniumTestProject
 
         public void Dispose()
         {
-            //driver.Close();
+            driver.Close();
         }
     }
 }
